@@ -1,0 +1,12 @@
+INSERT INTO category(category_name) VALUES ('Tashent');
+INSERT INTO category(category_name) VALUES ('London');
+INSERT INTO category (category_name) VALUES ('Ferghana');
+INSERT INTO category (category_name) VALUES ('Sirdarya');
+INSERT INTO category (category_name) VALUES ('LassWegas');
+INSERT INTO category (category_name) VALUES ('NewYourk');
+INSERT INTO unit_of_measure (description) VALUES ('NewYourk');
+INSERT INTO unit_of_measure (description) VALUES ('Moscow');
+INSERT INTO unit_of_measure (description) VALUES ('Texas');
+INSERT INTO unit_of_measure (description) VALUES ('Tashkent');
+INSERT INTO unit_of_measure (description) VALUES ('Ferghana');
+INSERT INTO unit_of_measure (description) VALUES ('Margilan');
