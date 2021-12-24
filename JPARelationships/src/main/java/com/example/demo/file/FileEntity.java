@@ -13,9 +13,18 @@ import javax.persistence.*;
 @AllArgsConstructor
 public class FileEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
-    private String url;
-    @ManyToOne
+    private String name;
+    private String extension;
+    private Long Size;
+
+    @ManyToOne(fetch = FetchType.LAZY)
     Post post;
+
+public FileEntity(String name,String extension,Long Size){
+    this.name = name;
+    this.extension = extension;
+    this.Size = Size;
+}
 }
